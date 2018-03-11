@@ -8,7 +8,7 @@ module.exports = {
       {
         test : /\.jsx?/,
         include : /app/,
-        loader : "babel"
+        loader : "babel",
         query: {
           // These are the specific transformations we'll be using.
           presets: ["react", "es2015"]
